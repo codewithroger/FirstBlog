@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "172405767570",
+    "project_id": "firstblog-fc443",
+    "storage_bucket": "firstblog-fc443.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172405767570:android:7e02343c4549bd8041154b",
+        "android_client_info": {
+          "package_name": "com.example.firstblog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5rde5r-_Q-myNVcNW9sDgQoAuisti_D0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

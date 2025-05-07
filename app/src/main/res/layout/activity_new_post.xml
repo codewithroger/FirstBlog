@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:gravity="center">
+
+    <!-- Post Image Section -->
+    <ImageView
+        android:id="@+id/post_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="#DDDDDD"
+        android:layout_marginBottom="24dp"
+        android:importantForAccessibility="yes"/>
+
+    <!-- Button to Select Image -->
+    <Button
+        android:id="@+id/select_image_button"
+        android:text="Select Image"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6200EE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center"/>
+
+    <!-- Title Input Field -->
+    <EditText
+        android:id="@+id/post_title_input"
+        android:hint="Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext_bg"
+        android:textColor="#333333"
+        android:textColorHint="#A5A5A5"
+        android:importantForAccessibility="yes"/>
+
+    <!-- Content Input Field -->
+    <EditText
+        android:id="@+id/post_content_input"
+        android:hint="Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/rounded_edittext_bg"
+        android:textColor="#333333"
+        android:textColorHint="#A5A5A5"
+        android:importantForAccessibility="yes"/>
+
+    <!-- Upload Button -->
+    <Button
+        android:id="@+id/upload_button"
+        android:text="Upload Post"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#6200EE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
