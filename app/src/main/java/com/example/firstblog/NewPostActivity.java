@@ -85,7 +85,7 @@ public class NewPostActivity extends AppCompatActivity {
                 try {
                     // Upload image to Cloudinary
                     Map uploadResult = cloudinary.uploader().upload(imageFile, ObjectUtils.emptyMap());
-                        String imageUrl = (String) uploadResult.get("CLOUDINARY_URL=cloudinary://271153139714856:ZLHc01ut_WFzuvyuJZZSOeVb_TQ@ddaaj9mgz");
+                        String imageUrl = (String) uploadResult.get("CLOUDINARY_URL=cloudinary://<apinumber>:<apikey>@ddaaj9mgz");
 
                     // Create post object with uploaded image URL
                     Post post = new Post(title, content, imageUrl);
