@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FirstBlog</string>
-    <string name="cloudinary_cloud_name">ddaaj9mgz</string>
-    <string name="cloudinary_api_key">271153139714856</string>
-    <string name="cloudinary_api_secret">ZLHc01ut_WFzuvyuJZZSOeVb_TQ</string>
+    <string name="cloudinary_cloud_name"></string>
+    <string name="cloudinary_api_key"></string>
+    <string name="cloudinary_api_secret"></string>
 
 </resources>
